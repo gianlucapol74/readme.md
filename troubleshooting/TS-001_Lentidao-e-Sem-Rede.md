@@ -19,11 +19,11 @@ Abra o **Prompt de Comando (cmd)** como Administrador na máquina do usuário af
 ### Passo 1: Verificar se a placa de rede recebeu IP válido
 ```cmd
 ipconfig /all
-
+```
 ### Passo 2: Testar conectividade local (Gateway Padrão)
-```cmd
+```
 ping [IP-DO-GATEWAY]
-
+```
 Exemplo: ping 192.168.1.1
 
 Se responder: O cabo, o switch e a comunicação local estão ok. Vá para o Passo 3.
@@ -33,7 +33,7 @@ Se der "Esgotado o tempo limite da solicitação": Problema no roteador local, c
 ### Passo 3: Testar comunicação externa via IP direto
 ```cmd
 ping 8.8.8.8
-
+```
 Se responder: A internet está funcionando. O problema provável é resolução de nomes (DNS). Vá para o Passo 4.
 
 Se não responder: O link de internet da empresa ou a VPN pode estar fora do ar.
@@ -42,7 +42,7 @@ Se não responder: O link de internet da empresa ou a VPN pode estar fora do ar.
 ```cmd
 ipconfig /flushdns
 nslookup google.com
-
+```
 Ação: Se o nslookup falhar, altere temporariamente os servidores DNS da placa para 8.8.8.8 e 1.1.1.1 para testar.
 
 Quando escalar para o Nível 2 (Infra/Redes)?

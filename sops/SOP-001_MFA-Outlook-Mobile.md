@@ -7,17 +7,17 @@
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 Orientar o analista de suporte no processo de configuração de conta corporativa (Microsoft 365) no aplicativo Outlook para dispositivos móveis (Android/iOS), incluindo a validação por Autenticação Multifator (MFA).
 
-## 📋 Pré-requisitos
+##  Pré-requisitos
 * Usuário com conta ativa no Active Directory / Microsoft 365.
 * Dispositivo móvel do usuário conectado à internet.
 * Aplicativo **Microsoft Authenticator** instalado no smartphone.
 
 ---
 
-## 🔄 Passo a Passo
+##  Passo a Passo
 
 ### Etapa 1: Instalação e Acesso Inicial
 1. Solicite ao usuário que baixe o aplicativo **Microsoft Outlook** na Google Play Store ou App Store.
@@ -36,6 +36,6 @@ Orientar o analista de suporte no processo de configuração de conta corporativ
 
 ---
 
-## ⚠️ Resolução de Problemas Comuns (Troubleshooting Rápido)
+## Resolução de Problemas Comuns (Troubleshooting Rápido)
 * **Erro "Conta não encontrada":** Verifique se o e-mail foi digitado corretamente e se a licença do Microsoft 365 está atribuída ao usuário.
 * **Código MFA não chega via SMS:** Verifique a sinalização do celular ou altere o método de validação para ligação telefônica ou aplicativo Authenticator.

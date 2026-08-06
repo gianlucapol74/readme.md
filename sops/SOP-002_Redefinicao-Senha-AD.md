@@ -7,15 +7,15 @@
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 Padronizar o atendimento para chamados de "Esquecimento de Senha" ou "Conta Bloqueada" no ambiente Windows Server / Active Directory.
 
-## 🔒 Regra de Segurança do Suporte
+##  Regra de Segurança do Suporte
 > **ATENÇÃO:** Antes de alterar qualquer senha, confirme a identidade do colaborador solicitante (via confirmação de CPF, matrícula corporativa ou validação com o gestor direto) para evitar ataques de Engenharia Social.
 
 ---
 
-## 🔄 Passo a Passo no Active Directory Users and Computers (ADUC)
+##  Passo a Passo no Active Directory Users and Computers (ADUC)
 
 ### 1. Localização do Usuário
 1. Acesse o servidor de domínio ou abra o console `dsa.msc` na máquina de administração.
@@ -35,5 +35,5 @@ Padronizar o atendimento para chamados de "Esquecimento de Senha" ou "Conta Bloq
 
 ---
 
-## 📝 Registro no Ticket (Exemplo de Notação)
+##  Registro no Ticket (Exemplo de Notação)
 > *"Atendimento realizado via telefone. Identidade confirmada via matrícula nº 4812. Conta desbloqueada e senha temporária fornecida ao usuário. Solicitada a alteração no primeiro login."*

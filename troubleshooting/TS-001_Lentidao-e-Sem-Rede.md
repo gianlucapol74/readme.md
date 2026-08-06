@@ -7,12 +7,12 @@
 
 ---
 
-## 🎯 Objetivo
+##  Objetivo
 Servir de guia de investigação rápida quando o usuário relata "Sem acesso à internet", "Sistemas fora do ar" ou "Rede lenta".
 
 ---
 
-## 🧪 Roteiro de Diagnóstico Sequencial (Linha de Comando)
+##  Roteiro de Diagnóstico Sequencial (Linha de Comando)
 
 Abra o **Prompt de Comando (cmd)** como Administrador na máquina do usuário afetado e execute a sequência abaixo:
 
